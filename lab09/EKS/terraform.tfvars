@@ -1,0 +1,9 @@
+account_name=150455926741
+ssh_key="ssh-key"
+#cluster-name=""
+node_group_name="tops-worknode-nodegroup"
+env="nonprod"
+project-name="tops"
+#subnet_ids=subnet-00fb23156121dddd0, subnet-05b9ab1e904b42e82,subnet-0cf6e5371acda491b, subnet-0c84bbbfd74224340, subnet-02ac3b1954dcffa7d, subnet-0bc05c5b508250133
+#private_subnet_ids=subnet-02ac3b1954dcffa7d, subnet-05b9ab1e904b42e82, subnet-0bc05c5b508250133
+vpc_id="vpc-0b6de0c4bdeb084cf"

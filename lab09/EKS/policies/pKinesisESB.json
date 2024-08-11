@@ -1,0 +1,17 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1487884001000",
+            "Effect": "Allow",
+            "Action": [
+                "sts:AssumeRole",
+                "iam:PassRole",
+                "iam:GetRole"
+            ],
+            "Resource": [
+                "arn:aws:iam::275109676531:role/rKinesisCrossAccount"
+            ]
+        }
+    ]
+}

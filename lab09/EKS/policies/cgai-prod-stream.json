@@ -1,0 +1,31 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "kinesis:*",
+            "Resource": [
+                "arn:aws:kinesis:ap-southeast-1:275109676531:stream/cgai-prod-datapump-stream"
+            ]
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "sns:*",
+                "es:*",
+                "kinesis:ListStreams",
+                "kinesis:EnableEnhancedMonitoring",
+                "kinesis:ListShards",
+                "kinesis:UpdateShardCount",
+                "kinesis:DescribeLimits",
+                "kinesis:ListStreamConsumers",
+                "kinesis:DisableEnhancedMonitoring"
+            ],
+            "Resource": [
+                "arn:aws:kinesis:ap-southeast-1:275109676531:stream/cgai-prod-datapump-stream"
+            ]
+        }
+    ]
+}
